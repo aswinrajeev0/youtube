@@ -218,24 +218,3 @@ hr{
     font-size: 14px;
     cursor: pointer;
 }
-
-@media all and (max-width: 430px) {
-    .sidebar{
-        display: none;
-    }
-    .header__search{
-        display: none;
-    }
-}
-
-@media (max-width: 770px){
-    .header__search{
-        width: 200px;
-    }
-    .sidebar{
-        display: none;
-    }
-    .mainBody{
-        margin: 0;
-    }
-}
