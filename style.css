@@ -131,17 +131,19 @@ hr{
     border: none;
 }
 
-.suggestionTags li{
+.suggestionTags ul{
     display: flex;
     flex-direction: row;
     padding: 10px;
+    list-style-type: none;
 }
 
-.suggestionTags ul{
+.suggestionTags li{
     background-color: #ddd;
     padding: 5px;
     margin: 5px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .suggestionTags{
